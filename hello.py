@@ -12,3 +12,12 @@ def operation(a,b):
         print (a)
     else:
         print(b)
+
+def add_element(l):
+    s = 0
+    for i in l:
+        s += i
+
+    return s
+
+
